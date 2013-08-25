@@ -1,0 +1,27 @@
+#Ignore all dot (.) files
+.*
+
+#But include any git ignore files
+!.gitignore
+
+#Ignore server settings
+Servers
+
+#Ignore Target folder
+target/
+
+#Ignore Class files
+*.class
+
+#Ignore log files
+*.log
+
+#Ignore temp files
+*.tmp
+*.temp
+
+#Ignore backup files
+*.bak
+
+#Ignore working directory
+ajdocworkingdir/
